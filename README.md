@@ -16,6 +16,8 @@ To add the package to your Xcode project, open `File -> Add Package Dependencies
 https://github.com/DnV1eX/EnumRawValues.git
 ```
 Then, simply **import EnumRawValues** and add the **@EnumRawValues** attribute before the target enum.
+> [!WARNING]
+> Xcode may ask to `Trust & Enable` the macro on first use or after an update.
 
 ## Usage Examples
 1. Assigning raw values using constants, expressions, functions, and more:
